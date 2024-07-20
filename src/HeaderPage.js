@@ -32,9 +32,6 @@ const HeaderPage = () => {
         <a href="/">about us</a>
       </nav>
       </div>
-     <main className='content'>
-      <p>Hello</p>
-     </main>
     </div>
   );
 };

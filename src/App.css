@@ -106,10 +106,10 @@ body {
 
 
 .header-component {
-  position: fixed; /* Make header fixed */
-  top: 0; /* Position it at the top */
-  width: 100%; /* Make it span the full width */
-  z-index: 1000; /* Ensure it's above other content */
+  position: fixed;  
+  top: 0; 
+  width: 100%; 
+  z-index: 1000; 
   margin-bottom: 20px;
 }
 
@@ -201,6 +201,42 @@ body {
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
+  /* new-try */
+  text-decoration: none;
+  display: block;
+  padding: 5px 0;
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 1;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #000000, #000000 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  transition: all 0.3s ease-in-out;
+}
+.navbar a:before {
+  display: block;
+  content: "";
+  width: 0;
+  height: 3px;
+  bottom: 5px;
+  left: 0;
+  bottom: -3px;
+  z-index: 0;
+  position: absolute;
+  background: #000000;
+  transition: all 0.3s ease-in-out;
+}
+.navbar a:hover {
+  background-position: 0%;
+}
+.navbar a:hover:before {
+  width: 100%;
 }
 
 .img-logo-login {
@@ -217,11 +253,4 @@ body {
 
 .full-name input {
   flex: 1;
-}
-.content {
-  background-color: rgb(235, 187, 187);
-  margin: 20px;
-  padding: 20px;
-  border-radius: 30px;
-  height: 2060px;
 }
