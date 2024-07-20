@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './App.css';
-import Logo from './images/Logo.png'
+import myLogo from './images/myLogo.png'
 
 const LoginPage = () => {
   const [username, setUsername] = useState('');
@@ -14,14 +14,14 @@ const LoginPage = () => {
     // Add login logic here
     // If successful: 
     alert('Logged in successfully!');
-    navigate('/home');
+    navigate('/Header');
     // If error:
     // setError('An error occurred. Please try again.');
   };
 
   return (
     <div className="login-container">
-          <img src={Logo} alt=" " className='img-logo-login' /> 
+          <img src={myLogo} alt=" " className='img-logo-login' /> 
       <h3 className='welcome-message'> Welcome to K1 Supermarket</h3>
       <p className='message-to-user'>Type your email to login or Create a K1 account.</p>
       <form onSubmit={handleSubmit}>

@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css'; // Using App.css for styles
-import Logo from './images/Logo.png';
+import myLogo from './images/myLogo.png';
 import { FaShoppingCart } from 'react-icons/fa';
 
 
-const Header = () => {
+const HeaderPage = () => {
   return (
     <div className="homepage">
       <header className="header">
-      <img src={Logo} alt=" " className='img-logo' /> 
+      <img src={myLogo} alt=" " className='img-logo' /> 
         <div className="logo-name">Supermarket</div>
         <div className="search-bar">
           <input type="text" placeholder="search product" />
@@ -28,9 +28,11 @@ const Header = () => {
         <a href="/">contact Us</a>
         <a href="/">about us</a>
       </nav>
+     {/* <main className='content'>
 
+     </main> */}
     </div>
   );
 };
 
-export default Header;
+export default HeaderPage;
