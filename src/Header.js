@@ -4,7 +4,7 @@ import Logo from './images/Logo.png';
 import { FaShoppingCart } from 'react-icons/fa';
 
 
-const HomePage = () => {
+const Header = () => {
   return (
     <div className="homepage">
       <header className="header">
@@ -28,11 +28,9 @@ const HomePage = () => {
         <a href="/">contact Us</a>
         <a href="/">about us</a>
       </nav>
-      <main className="content">
 
-      </main>
     </div>
   );
 };
 
-export default HomePage;
+export default Header;
