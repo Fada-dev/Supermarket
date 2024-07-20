@@ -7,9 +7,12 @@ import { FaShoppingCart } from 'react-icons/fa';
 const HeaderPage = () => {
   return (
     <div className="homepage">
+    <div className="header-component">
       <header className="header">
+      <div className='logo-area'>
       <img src={myLogo} alt=" " className='img-logo' /> 
-        <div className="logo-name">Supermarket</div>
+      <div className="logo-name">Supermarket</div>
+      </div>
         <div className="search-bar">
           <input type="text" placeholder="search product" />
           <button>search</button>
@@ -28,9 +31,10 @@ const HeaderPage = () => {
         <a href="/">contact Us</a>
         <a href="/">about us</a>
       </nav>
-     {/* <main className='content'>
-
-     </main> */}
+      </div>
+     <main className='content'>
+      <p>Hello</p>
+     </main>
     </div>
   );
 };
