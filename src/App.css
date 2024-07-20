@@ -1,0 +1,205 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.signup-container,
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #941b1bea;
+  border: none;
+  border-radius: 4px;
+  color:#ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(91, 35, 35, 1);
+}
+
+.form-group input {
+  margin-bottom: 10px; /* Adds spacing between the input fields */
+}
+.error {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.welcome-message {
+  justify-content: center;
+  text-align: center;
+  font-size: 16;
+  font-weight: bold;
+}
+
+.message-to-user {
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 30px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.create-account-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.create-account-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.create-account-link a:hover {
+  text-decoration: underline;
+}
+
+/* General styles for the whole app */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Styles for the HomePage component */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 35px;
+}
+
+.logo-name {
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  left: -210px;
+  color: #4d4b4b;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.search-bar select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+  background-color: rgba(226, 205, 19, 0.35);
+  border: none;
+  border-radius: 4px;
+  color:#5B2323;
+  cursor: pointer;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+}
+
+.user-actions a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.user-actions .cart {
+  display: flex;
+  align-items: center;
+}
+
+.user-actions .cart img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.navbar {
+  background-color: #941b1bea;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* .content {
+  background-color: rgb(235, 187, 187);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  height: 260px;
+} */
+
+.img-logo {
+  width: 50px;
+}
+
+.img-logo-login {
+  width: 50px;
+  position: relative;
+  right: -175px;
+}
