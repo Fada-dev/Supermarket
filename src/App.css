@@ -254,3 +254,114 @@ body {
 .full-name input {
   flex: 1;
 }
+
+
+/*----------------offers Page Styles-------------*/
+
+.offers-page {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.offers-header {
+  text-align: center;
+  padding: 20px;
+  background-color: #05ff2fad;
+  color: white;
+}
+
+.offers-header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.offers-header p {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2em;
+  margin: 20px 0;
+  color: #333;
+  border-bottom: 2px solid #04ad20f3;
+  display: inline-block;
+  width: 100%;
+}
+
+.featured-offers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  background-color: #f9f9f9;
+}
+
+.featured-offers h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.offer-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2a3d67;
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+  max-width: 800px;
+  width: 100%;
+}
+
+.offer-image img {
+  width: 200px;
+  border-radius: 15px;
+}
+
+.offer-details {
+  text-align: left;
+}
+
+.offer-details h2 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.offer-details p {
+  margin: 5px 0;
+}
+
+.offer-details .price {
+  font-size: 2em;
+  font-weight: bold;
+  color: #f6b93b;
+}
+
+.upcoming-offers {
+  margin-top: 40px;
+}
+
+.limited-time-offers h2, .upcoming-offers h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+  border-bottom: 2px solid #04ad20f3;
+  display: inline-block;
+}
+
+.offer-timer {
+  text-align: center;
+  font-size: 1.5em;
+  color: #ff0000;
+  margin: 20px 0;
+}
+
+.offers-footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #666;
+}
