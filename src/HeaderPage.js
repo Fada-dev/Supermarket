@@ -27,8 +27,8 @@ const HeaderPage = () => {
         <nav className="navbar">
           <a href="/">home</a>
           <a href="/offers">offers</a> {/* Updated link */}
-          <a href="/">contact Us</a>
-          <a href="/">about us</a>
+          <a href="/contact">contact Us</a>
+          <a href="/about">about us</a>
         </nav>
       </div>
     </div>

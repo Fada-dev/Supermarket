@@ -3,7 +3,9 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 import HeaderPage from './HeaderPage';
 import LoginPage from './LoginPage';
 import SignupPage from './SignupPage';
-import OffersPage from './OffersPage'; // Import the new OffersPage component
+import OffersPage from './OffersPage';
+import AboutPage from './AboutPage'; // Import the AboutPage component
+import ContactusPage from './ContactusPage';
 import './App.css';
 
 const App = () => {
@@ -15,7 +17,9 @@ const App = () => {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignupPage />} />
           <Route path="/header" element={<HeaderPage />} />
-          <Route path="/offers" element={<OffersPage />} /> {/* Add the Offers page route */}
+          <Route path="/offers" element={<OffersPage />} />
+          <Route path="/about" element={<AboutPage />} /> 
+          <Route path="/contact" element={<ContactusPage />} /> 
         </Routes>
       </div>
     </Router>

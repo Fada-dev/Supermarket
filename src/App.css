@@ -270,10 +270,6 @@ body {
   color: white;
 }
 
-.offers-header h1 {
-  margin: 0;
-  font-size: 2.5em;
-}
 
 .offers-header p {
   margin-top: 10px;
@@ -341,6 +337,7 @@ body {
 
 .upcoming-offers {
   margin-top: 40px;
+  text-align: center;
 }
 
 .limited-time-offers h2, .upcoming-offers h2 {
@@ -348,15 +345,14 @@ body {
   font-size: 2em;
   margin-bottom: 20px;
   color: #333;
-  border-bottom: 2px solid #04ad20f3;
   display: inline-block;
 }
 
 .offer-timer {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 12px;
   color: #ff0000;
-  margin: 20px 0;
+  /* margin: 20px 0; */
 }
 
 .offers-footer {
@@ -364,4 +360,256 @@ body {
   margin-top: 40px;
   font-size: 0.9em;
   color: #666;
+}
+
+.offer-details .price {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.offer-details .original-price {
+  text-decoration: line-through;
+  color: #777;
+  margin-right: 10px;
+}
+
+.offer-details .discounted-price {
+  color: #e74c3c;
+}
+
+
+/*----------ABOUT PAGE-------------*/
+.about-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-header h1 {
+  font-size: 36px;
+  color: #04ad20f3;
+}
+
+.about-header p {
+  font-size: 18px;
+  color: #666;
+}
+
+.about-introduction,
+.about-values,
+.about-team,
+.about-contact {
+  margin-bottom: 40px;
+}
+
+.about-introduction h2,
+.about-values h2,
+.about-team h2,
+.about-contact h2 {
+  font-size: 28px;
+  color: #04ad20f3;
+  margin-bottom: 20px;
+}
+
+.about-introduction p,
+.about-values ul,
+.about-team p,
+.about-contact p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.about-values ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-values ul li {
+  margin-bottom: 10px;
+}
+
+.about-values ul li strong {
+  color: rgba(4, 173, 32, 0.953);
+}
+
+.about-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #04ad20f3;
+  color: #fff;
+}
+
+
+
+/*-----------CONTACT US CSS--------*/
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f9fa;
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+}
+
+.contact-banner {
+  width: 100%;
+  padding: 50px 0;
+  background: url('https://www.dgicommunications.com/wp-content/uploads/2022/01/grocery-store-design-.jpg') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.contact-banner h1 {
+  font-size: 4em;
+  margin: 0;
+}
+
+.contact-content {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  position: relative;
+  height: 100%;
+}
+
+.contact-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.contact-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+  border-radius: 10px;
+}
+
+.contact-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(230, 209, 178);
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.contact-info h2 {
+  font-size: 40px;
+  color: #f99f29;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+.contact-form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  color: #0d9a12c4;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 15px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form .error {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+.contact-form button {
+  padding: 15px 20px;
+  margin-top: 20px;
+  background-color: #2c9128;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #0d9a12c4;
+}
+
+.map {
+  width: 90%;
+  max-width: 1200px;
+  margin-top: 40px;
+}
+
+.map h2 {
+  color: #f99f29;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.map iframe {
+  width: 100%;
+  height: 450px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .contact-content {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form {
+    margin-top: 20px;
+  }
 }
