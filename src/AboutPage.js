@@ -3,11 +3,11 @@ import React from 'react';
 const AboutPage = () => {
   return (
     <div className="about-page">
-      <header className="about-header">
+      <div className="contact-banner">
         <h1>About Us</h1>
         <p>Learn more about our journey, values, and what makes us unique.</p>
-      </header>
-
+      </div>
+      <div className="about-content">
       <section className="about-introduction">
         <h2>Our Story</h2>
         <p>
@@ -38,7 +38,7 @@ const AboutPage = () => {
           Have questions or feedback? We’d love to hear from you! Feel free to reach out to us via our contact page or visit us in-store.
         </p>
       </section>
-
+    </div>
       <footer className="about-footer">
         <p>&copy; 2024 Supermarket. All rights reserved.</p>
       </footer>
