@@ -6,6 +6,7 @@ import SignupPage from './SignupPage';
 import OffersPage from './OffersPage';
 import AboutPage from './AboutPage'; // Import the AboutPage component
 import ContactusPage from './ContactusPage';
+import ReturnPolicyPage from './ReturnpolicyPage';
 import './App.css';
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/offers" element={<OffersPage />} />
           <Route path="/about" element={<AboutPage />} /> 
           <Route path="/contact" element={<ContactusPage />} /> 
+          <Route path="/Returnpolicy" element={<ReturnPolicyPage />} /> 
         </Routes>
       </div>
     </Router>

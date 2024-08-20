@@ -617,3 +617,85 @@ body {
     margin-top: 20px;
   }
 }
+
+/*-------RETURN POLICY---------*/
+body {
+  background: linear-gradient(to right, #97ee1494, #fcaf759c,#97ee1494, #fcaf75a8, #97ee1494);
+}
+
+.return-policy-container {
+  position: relative; 
+  padding: 30px 60px;
+  /* background-image: url(return.webp);  */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #c8c6c6;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(68, 129, 39, 0.2);
+  max-width: 900px;
+  margin: 40px auto;
+  z-index: 1; 
+}
+
+.return-policy-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(211, 93, 46, 0.306);
+  border-radius: 8px; /* Match container's border-radius */
+  z-index: -1; /* Place the overlay behind the content */
+}
+
+.return-policy-heading {        
+  text-align: center;
+  color: #de5313c0;
+}
+.effective-date {
+  text-align: center;
+  font-style: italic;
+  color: #fefafa; 
+}
+
+
+.policy-section {
+
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+}
+
+.return-policy-section-title {
+  margin-top: 0;
+  color:  #000000f6;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.return-policy-paragraph{
+      color: #272727; 
+      font-size: 22px;
+      font-family: sans-serif;
+      text-align: left;
+     line-height: 1.5;
+  }
+
+.return-policy-list {
+  color: #272727; 
+  font-size: 22px;
+  font-family: sans-serif;
+  text-align: left;
+ 
+}
+
+.return-policy-link {
+  color: #0c5583ab;
+  text-decoration: none;
+}
+
+.return-policy-link:hover {
+  text-decoration: underline;
+}
